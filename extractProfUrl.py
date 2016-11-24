@@ -6,7 +6,7 @@ import json
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('inputfile', help="file containing the list of stopwords")
+    parser.add_argument('inputfile', help="the excel file containing the input search data")
     return parser.parse_args()
 
 def urlMatch(titles_urls, name):
