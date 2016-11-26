@@ -73,14 +73,14 @@ If the user is no longer logged in to www.linkedin.com, or their access token ha
 Finally execute **profile.py** with the required selectors by modifying the code to get the basic profile details. 
 
 
-### External Dependencies
+## External Dependencies
 
 * Selenium
 * Clipboard (for using the Linkedin API code)
 
 You also need to have Firefox web driver and PhantomJs set in your environment path.
 
-### Sample output
+## Sample output
 
 ``` urls.json ``` (list of urls)
 
@@ -93,7 +93,7 @@ Try to view the contents of the above file using this tool http://jsonviewer.sta
 
 Based on this you can write a small piece to either dump the information to an excel sheet or make a small Flask web app to view the scrapped JSON information in prettified way  
 
-### Possible Improvements:
+## Possible Improvements:
 
 * Linkedin profile URL scoring.
 * optimizing the Scrapping.
